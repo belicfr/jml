@@ -69,11 +69,13 @@ public class Compiler {
     }
 
     /**
-     * Returns if the given path targets a JML file.
+     * The isJmlFilePath function determines whether a given file path is
+     * a JML file. It does this by checking that the path is for an actual
+     * file and that the filename ends in ".jml".
      *
      * @param pathObject Given path object
      *
-     * @return If the given path targets a file
+     * @return If pathObject is a JML file
      */
     private static boolean isJmlFilePath(File pathObject) {
         final String REGEX_JML_FILE_EXTENSION
@@ -88,6 +90,15 @@ public class Compiler {
         return pathObject.isFile() && pathMatcher.matches();
     }
 
+    /**
+     * The isFolderPath function takes a File object as an
+     * argument and returns true if the file is a folder,
+     * false otherwise.
+     *
+     * @param pathObject Check if the path is a file or not
+     *
+     * @return True if pathObject is a directory
+     */
     private static boolean isFolderPath(File pathObject) {
         return !pathObject.isFile();
     }

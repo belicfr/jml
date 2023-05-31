@@ -16,9 +16,15 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class FileCompiler {
+    /**
+     * I/O error string.
+     */
     private static final String ERROR_IO
         = "I/O error occured.";
 
+    /**
+     * No one "jml.template" tag in the JML file.
+     */
     private static final String ERROR_NO_ONE_JML_TEMPLATE_TAG
         = "There is not any <jml.template> tag.";
 
