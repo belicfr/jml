@@ -1,0 +1,13 @@
+<jml.template @title="Tab title! :)">
+
+    <h1>
+        Hello, World!
+    </h1>
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, ad quisquam. Ab asperiores aspernatur
+        cupiditate deserunt dignissimos eum eveniet excepturi explicabo laborum modi nam quas quidem, quisquam suscipit
+        velit veniam!
+    </p>
+
+</jml.template>
