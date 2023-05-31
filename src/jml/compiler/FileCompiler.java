@@ -62,6 +62,7 @@ public class FileCompiler {
          *  - copy base.html for each compilation
          *  - custom base.html copy with given information
          *    in JML file
+         *  - create class for each JML tag
          */
     }
 }
